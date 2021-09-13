@@ -5,14 +5,8 @@
   box-sizing: border-box;
 }
 
-body {
-  width: 100vw;
-  height: 100vh;
-}
-
 .carousel {
   width: 100vw;
-  height: 500px;
 }
 
 .carousel__wrapper {
@@ -26,8 +20,13 @@ body {
   }
 }
 
-.div1 {
-  background: red;
+.carousel__item {
+  h1 {
+    
+    span{
+
+    }
+  }
 }
 
 .div2 {
