@@ -1,3 +1,14 @@
+const wrapper = document.querySelector('.carousel__wrapper');
+const carousel = document.querySelector('.carousel');
+
+carousel.addEventListener('scroll', () => console.log('scroll'))
+wrapper.addEventListener('animationiteration', () => console.log('iteration'))
+
+const item = document.querySelector('.carousel__item');
+
+console.log(item.id)
+
+
 // const activeClass = (clickedElement) => {
 //   const allElements = document.querySelectorAll('.carousel__button');
 //   const wrapper = document.querySelector('.carousel__wrapper');
