@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload"
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+    as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap">
+  </noscript>
+
+  <link rel="preload" href="./css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="./css/style.css">
+  </noscript>
+
+  <title>Document</title>
+
+</head>
+
+<body>
+  <section class="carousel">
+    <article class="carousel__wrapper">
+      <div class="carousel__container">
+        <div class="carousel__item">
+          <h1>UMA NOVA FORMA DE <span>VENDER SAÚDE</span> ONLINE.</h1>
+
+          <div class="carousel__texts">
+            <img src="/img/n1.svg" alt="Número 1" width="134px" height="104px">
+            <div class="carousel__texts__content">
+              <h2>Venda Online</h2>
+              <h3>Venda planos de saúde 100% online.</h3>
+            </div>
+          </div>
+
+          <button type="button">SOLICITAR DEMONSTRAÇÃO</button>
+        </div>
+
+        <div class="carousel__item">
+          <h1>UMA NOVA FORMA DE <span class="--purple">GERIR VENDAS</span> ONLINE.</h1>
+
+          <div class="carousel__texts">
+            <img src="/img/n2.svg" alt="Número 2" width="134px" height="104px">
+            <div class="carousel__texts__content">
+              <h2 class="--purple">Gestão Comercial</h2>
+              <h3>Administre vendas 100% online.</h3>
+            </div>
+          </div>
+
+          <button type="button">SOLICITAR DEMONSTRAÇÃO</button>
+        </div>
+
+        <div class="carousel__item">
+          <h1>UMA NOVA FORMA DE <span class="--yellow">LEVAR SORRISOS</span> ONLINE.</h1>
+
+          <div class="carousel__texts">
+            <img src="/img/n3.svg" alt="Número 3" width="134px" height="104px">
+            <div class="carousel__texts__content">
+              <h2 class="--yellow">Odonto</h2>
+              <h3>Venda planos 100% online.</h3>
+            </div>
+          </div>
+
+          <button type="button">SOLICITAR DEMONSTRAÇÃO</button>
+        </div>
+      </div>
+
+    </article>
+
+    <div class="carousel__controls">
+      <button class="carousel__button carousel__button--active" id="item1" type="button"
+        onclick="activeClass(this)"></button>
+      <button class="carousel__button" type="button" id="item2" onclick="activeClass(this)"></button>
+      <button class="carousel__button" type="button" id="item3" onclick="activeClass(this)"></button>
+    </div>
+  </section>
+</body>
+
+<script type="text/javascript" src="/script.js"></script>
+
+</html>

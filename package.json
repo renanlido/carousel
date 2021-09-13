@@ -1,0 +1,12 @@
+{
+  "name": "slide",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "renanlido",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.39.0"
+  }
+}
