@@ -49,8 +49,11 @@
   height: 100%;
   display: flex;
   animation-duration: 20s;
+  -webkit-animation-duration: 20s;
   animation-name: carousel;
+  -webkit-animation-name: carousel;
   animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
 }
 
 .carousel__item {
