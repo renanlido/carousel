@@ -23,11 +23,8 @@
   width: 100%;
   background: url(/img/bannerBg.svg) no-repeat right;
   background-position-x: 52vw;
-  // overflow-x: scroll;
   overflow: hidden;
-
-  // scroll-snap-type: x mandatory;
-  // scroll-behavior: smooth;
+  cursor: pointer;
 
   &__controllers {
     display: flex;
@@ -52,28 +49,13 @@
   }
 }
 
-// @keyframes carousel {
-//   0% { margin-left: 0; }
-//   30% { margin-left:0; }
-//   33% { margin-left: -100%; }
-//   63% { margin-left: -100%; }
-//   66% { margin-left: -200%; }
-//   96% { margin-left: -200%; }
-//   100% { margin-left: -300%; }
-// }
-
 .carousel__wrapper {
   width: 600%;
   height: 100%;
   display: flex;
   transform: translateX(calc((-100%/6)*2));
-  
-  // animation-duration: 20s;
-  // -webkit-animation-duration: 20s;
-  // animation-name: carousel;
-  // -webkit-animation-name: carousel;
-  // animation-iteration-count: infinite;
-  // -webkit-animation-iteration-count: infinite;
+  touch-action: none;
+
 }
 
 .carousel__item {
@@ -86,7 +68,6 @@
   line-height: 40px;
   padding: 32px 18px;
 
-  // scroll-snap-align: start;
 
   h1 {
     font-size: inherit;
